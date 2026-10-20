@@ -1,0 +1,4 @@
+[ledger-udev]
+source = "github"
+github = "LedgerHQ/udev-rules"
+use_latest_commit = true

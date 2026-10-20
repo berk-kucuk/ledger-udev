@@ -1,0 +1,14 @@
+pkgbase = ledger-udev
+	pkgdesc = Udev rules to connect Ledger hardware wallets
+	pkgver = 20240212
+	pkgrel = 1
+	url = https://github.com/LedgerHQ/udev-rules
+	arch = any
+	license = Apache-2.0
+	depends = systemd
+	source = 20-hw1-229140edf5d9eb33083bc9df6cc471270f4de3c9.rules::https://raw.githubusercontent.com/LedgerHQ/udev-rules/229140edf5d9eb33083bc9df6cc471270f4de3c9/20-hw1.rules
+	source = LICENSE-229140edf5d9eb33083bc9df6cc471270f4de3c9::https://raw.githubusercontent.com/LedgerHQ/udev-rules/229140edf5d9eb33083bc9df6cc471270f4de3c9/LICENSE
+	sha256sums = 0a67fa9b7024048f7f967fef8d33c2da38dae9354e996c131b79a014f62b7efc
+	sha256sums = c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4
+
+pkgname = ledger-udev
