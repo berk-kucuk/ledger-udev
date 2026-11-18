@@ -1,7 +1,7 @@
 pkgbase = ledger-udev
 	pkgdesc = Udev rules to connect Ledger hardware wallets
 	pkgver = 20240212
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/LedgerHQ/udev-rules
 	arch = any
 	license = Apache-2.0
